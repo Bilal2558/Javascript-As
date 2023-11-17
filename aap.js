@@ -44,3 +44,27 @@ document.write("<h6>=====>",pets,"<br></h6>");
  document.write("<h3>........... Slice use to copy  in array<h3>");
  var noPets = pets.slice(1, 3);
 document.write("<h6>=====>",noPets,"<br></h6>");
+
+// Changing case
+var myName= "Bilal";
+document.write("<h3>........... UpperCase<h3>");
+document.write("<h6>=====>",myName.toLocaleUpperCase(),"<br></h6>");
+document.write("<h3>...........LowerCase<h3>");
+document.write("<h6>=====>",myName.toLocaleLowerCase(),"<br></h6>");
+
+var firstChar = myName.slice(0, 1);
+ var otherChars = myName.slice(1);
+ firstChar = firstChar.toUpperCase();
+ otherChars = otherChars.toLowerCase();
+var capitalize = firstChar + otherChars;
+document.write("<h3>...........capitalize<h3>");
+document.write("<h6>=====>",capitalize,"<br></h6>");
+document.write("<h3>=====>","double spaces", "<br></h3>");
+var fullName= "Muhammad Bilal";
+for (var i = 0; i < fullName; i++) {
+     if (fullName.slice(i, i + 2) === " ") {
+     alert("No double spaces!");
+     break;
+    
+    }
+     }
