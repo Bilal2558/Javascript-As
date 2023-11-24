@@ -8,7 +8,7 @@ let number= "You have visited this site 14 times "
 alert(number);
 
 // birthYear show in browser
-document.write("My birth year is 02/11/1997  Data type of my ddeclared variable as number");
+document.write("My birth year is 02/11/1997  Data type of my declared variable as number");
 
 document.write("<br>");
 // 4

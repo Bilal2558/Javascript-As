@@ -30,7 +30,6 @@ alert(email);
   let boder = " ▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬"
  alert(boder);
 
-
 // 7
 document.write("Yah! I can Write HTML content through javascript");
 

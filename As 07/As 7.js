@@ -1,6 +1,5 @@
 document.write("<h1>...........As #9-10<br><h1>");
 
-
 //  1
 document.write("<h3>...........1<br>program to take “city” name <h3>");
 var city=prompt("Enter your City", "Karachi");
@@ -10,9 +9,6 @@ if(city==="Karachi"){
 else{
     alert("Not Avalibale");
 }
-
-
-
 
 //  2
 document.write("<h3>...........2<br>program to take “gender” <h3>");
@@ -26,9 +22,6 @@ else if(gender==="female"){
 else{
     alert("please Enter your Gender" );
 }
-
-
-
 
 // 3
 document.write("<h3>...........3<br> program to take input color of road traffic signal from the user<h3>");
@@ -47,9 +40,6 @@ else{
 }
 document.write("Enter traffic signal color");
 
-
-
-
 //  4
 document.write("<h3>...........4<br>program to take input remaining fuel in car less than 0.25litres<h3>");
 var fuel=prompt("Enter fuel in car", 0.60)
@@ -60,9 +50,6 @@ else{
     alert("Move" );
 }
 document.write("Enter fuel in car");
-
-
-
 
 // 5
 document.write("<h3>...........5<br>Run this script<h3>");
@@ -105,10 +92,6 @@ if("car" < "cat"){
     alert("car is smaller than cat");
     }
 document.write("check code Run <br>");
-
-
-
-
 
 // 6
 document.write("<h3>...........6<br> program to take input the marks obtained in three subjects & total marks.<h3>");

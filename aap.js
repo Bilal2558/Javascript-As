@@ -59,12 +59,34 @@ var firstChar = myName.slice(0, 1);
 var capitalize = firstChar + otherChars;
 document.write("<h3>...........capitalize<h3>");
 document.write("<h6>=====>",capitalize,"<br></h6>");
+
 document.write("<h3>=====>","double spaces", "<br></h3>");
-var fullName= "Muhammad Bilal";
-for (var i = 0; i < fullName; i++) {
-     if (fullName.slice(i, i + 2) === " ") {
-     alert("No double spaces!");
-     break;
-    
-    }
-     }
+// var fullName=prompt( "Muhammad   Bilal");
+// for (var i = 0; i < fullName.length; i++) {
+//      if (fullName.slice(i, i + 2) === "  ") {
+//      alert("No double spaces!");
+//      break;
+//     }
+//      }
+var userInput = "In which city do you live?";
+lengthUserInput = userInput.length;
+correctName = true;
+
+for (i = 0; i < lengthUserInput; i++) {
+  if (userInput.slice(i, i + 2) === "  ") {
+    correctName = false;
+  }
+}
+
+if (correctName === false) {
+  alert("Double spaces are not allowed");
+} else {
+  alert(userInput);
+}
+
+document.write("<h3>=====>","", "<br></h3>");
+ var month = "Enter a month";
+ var charsInMonth = month.length;
+ if (charsInMonth > 3) {
+ monthAbbrev = month.slice(0, 3);
+ }

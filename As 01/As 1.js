@@ -18,7 +18,6 @@ function box() {
  
 // 4
  let abc = "Hello... I can run js throung my web browser console";
-
  console .log(abc);
 
 
