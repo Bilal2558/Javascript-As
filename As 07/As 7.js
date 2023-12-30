@@ -1,7 +1,7 @@
 document.write("<h1>...........As #9-10<br><h1>");
 
 //  1
-document.write("<h3>...........1<br>program to take “city” name <h3>");
+document.write("<br><h3>...........1<br>program to take “city” name <h3>");
 var city=prompt("Enter your City", "Karachi");
 if(city==="Karachi"){
     alert("Welcome to city of lights");
@@ -11,7 +11,7 @@ else{
 }
 
 //  2
-document.write("<h3>...........2<br>program to take “gender” <h3>");
+document.write("<br><h3>...........2<br>program to take “gender” <h3>");
 var gender=prompt("Enter your Gender", "male")
 if(gender==="male"){
     alert("Good Morning Sir.");
@@ -24,7 +24,7 @@ else{
 }
 
 // 3
-document.write("<h3>...........3<br> program to take input color of road traffic signal from the user<h3>");
+document.write("<br><h3>...........3<br> program to take input color of road traffic signal from the user<h3>");
 var color=prompt("Enter traffic signal color", "Red")
 if(color==="Red"){
     alert("Must Stop");
@@ -38,10 +38,9 @@ else if(color==="Green"){
 else{
     alert("please Enter traffic signal color" );
 }
-document.write("Enter traffic signal color");
 
 //  4
-document.write("<h3>...........4<br>program to take input remaining fuel in car less than 0.25litres<h3>");
+document.write("<br><h3>...........4<br>program to take input remaining fuel in car less than 0.25litres<h3>");
 var fuel=prompt("Enter fuel in car", 0.60)
 if(fuel < 0.25){
     alert("Please refill the fuel in your car");
@@ -49,10 +48,9 @@ if(fuel < 0.25){
 else{
     alert("Move" );
 }
-document.write("Enter fuel in car");
 
 // 5
-document.write("<h3>...........5<br>Run this script<h3>");
+document.write("<br><h3>...........5<br>Run this script<h3>");
 var a = 4;
 if (++a === 5){
 alert("given condition for variable a is true");
@@ -91,10 +89,10 @@ alert("False");
 if("car" < "cat"){
     alert("car is smaller than cat");
     }
-document.write("check code Run <br>");
+
 
 // 6
-document.write("<h3>...........6<br> program to take input the marks obtained in three subjects & total marks.<h3>");
+document.write("<br><h3>...........6<br> program to take input the marks obtained in three subjects & total marks.<h3>");
 var marks=prompt("Total marks: ", 300);
 var English=+prompt("English marks: ", 90);
 var Urdu=+prompt("Urdu marks: ",50 );
@@ -109,23 +107,23 @@ var Percentag=(Marks_obtained/300*100).toFixed(0);
 document.write("Total marks:  ",  marks, "<br>");
 
 // Marks_obtained Show
-document.write("Marks obtained:  ", Marks_obtained, "<br>");
+document.write("<h6>Marks obtained:  ", Marks_obtained, "</h6>");
 
 //  Percentage show
-document.write("Percentage:  ", Percentag, "%<br>");
+document.write("<h6>Percentage:  ", Percentag, "%</h6>");
 
 //  Grade Show
 if(Percentag>=80 ) {
-    document.write("Grade: A-one",  "<br>","Excellent","<br>");
+    document.write("<h6>Grade: A-one",  "<br>","Excellent","</h6>");
 }
 else if (Percentag>=70 ) {
-    document.write("Grade: A",  "<br>", "Good","<br>");
+    document.write("<h6>Grade: A",  "<br>", "Good","</h6>");
 }
 else if (Percentag>=60 ) {
-    document.write ("Grade: B",  "<br>","You need to improve","<br>");
+    document.write ("<h6>Grade: B",  "<br>","You need to improve </h6>");
 }
 else  {
-    document.write("Grade: Fail",  "<br>", "Sorry","<br>");
+    document.write("<h6>Grade: Fail",  "<br>", "Sorry </h6>");
 }
 
 
@@ -134,8 +132,8 @@ else  {
 
 
 // 7
-document.write("<h3>...........7<br> , Guess game <h3>");
-var gnum = 5;
+document.write("<br><h3>...........7<br> , Guess game <h3>");
+var gnum = 100;
 var guess=+prompt("Enter Number for Guess game");
 if(guess === gnum){
     alert("Bingo! Correct answer"); 
@@ -152,11 +150,11 @@ else{
 
 
 // // 8
-document.write("<h3>...........8<br>check whether the given number <h3>");
+document.write("<br><h3>...........8<br>check whether the given number <h3>");
 var num = +prompt(" Enter a number  is divisible by 3 ")
 if (num % 3 == 0) {
     alert(" the number is divisible by 3  ")
-    document.write(" the number is divisible by 3  ")
+    document.write("<h6> the number is divisible by 3  </h6>")
 }
 else {
     alert(" the number is  not divisible by 3  ")
@@ -166,8 +164,8 @@ else {
 
 
 // 9
-document.write("<h3>...........9<br> check even or odd number<h3>");
-var Number3 = prompt("Enter Your Number");
+document.write("<br><h3>...........9<br> check even or odd number<h3>");
+var Number3 = prompt("Enter even or odd Number");
 if (Number3 % 2 === 0) {
     alert("This is Number even");
 }
@@ -180,8 +178,8 @@ else {
 
 
 // 10
-document.write("<h3>...........10<br> program that takes temperature<h3>");
-var temperature = prompt("Enter takes  temperature")
+document.write("<br><h3>...........10<br> program that takes temperature<h3>");
+var temperature = prompt("Enter takes  temperature number")
 if (temperature > 40) {
     alert("It is too hot outside.");
 }
@@ -197,18 +195,15 @@ else {
 }
 
 
-
-
-
-
 // // 11
-document.write("<h3>...........11<br> create a calculator for +,-,*, / %<h3>");
-var FirstNumber = +prompt("Enter First Number");
-var SecondNumber = +prompt("Enter Second Number");
-document.write("======>", FirstNumber + SecondNumber, "<br>");
-document.write("======>", FirstNumber - SecondNumber, "<br>");
-document.write("======>", FirstNumber / SecondNumber, "<br>");
-document.write("======>", FirstNumber * SecondNumber, "<br>");
+document.write("<br><h3>...........11<br> create a calculator for +,-,*, / %<h3>");
+var FirstNumber = +prompt("Enter First Number for calculator");
+var SecondNumber = +prompt("Enter Second Number for calculator");
+document.write("<h6>======>", FirstNumber + SecondNumber, "<h6>");
+document.write("<h6>======>", FirstNumber - SecondNumber, "<h6>");
+document.write("<h6>======>", FirstNumber / SecondNumber, "<h6>");
+document.write("<h6>======>", FirstNumber * SecondNumber, "<h6>");
+
 
 
 

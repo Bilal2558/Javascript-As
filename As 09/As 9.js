@@ -1,11 +1,11 @@
 document.write("<h1>...........", "As #13-15</h1>");
 // 1
-document.write("<br><h3>...........1 literalArray<h3>");
-var literalArray = ["Owais "+ "Bilal "+ "Osama " +"Salman "+ "Hasnain "] ;
-document.write("<h6>=====>"+literalArray+"</h6>");
+document.write("<br><h3>...........1 literal Array<h3>");
+var literal = ["Owais "+ "Bilal "+ "Osama " +"Salman "+ "Hasnain "] ;
+document.write("<h6>=====>"+literal+"</h6>");
 // 2
-document.write("<br><h3>...........2 objectArray<h3>");
-var fruits = new Array( "apple "+ "orange "+ "mango" );
+document.write("<br><h3>...........2 object Array<h3>");
+var fruits = ( "apple "+ "orange "+ "mango" );
 document.write("<h6>=====>"+fruits+"</h6>");
 
 // 3
@@ -20,7 +20,7 @@ document.write("<h6>=====>"+numberArray+"</h6>");
 
 // 5 
 document.write("<br><h3>...........5 boolean array<h3>");
-var boolArray=[true, false];
+var boolArray=[true ,"   "+ false];
 document.write("<h6>=====>"+boolArray+"</h6>");
 
 // 6
@@ -37,7 +37,7 @@ document.write("<h6>"+education+"</h6>");
 document.write("<br><h3>...........8 students  result in  array<h3>");
 var studentNames = ["Ali", "Bilal", "Danish"];
 var totalScore= 500;
-var score= [490, 480, 470];
+var score= [490, 440, 410];
 for(var i=0; i<score.length;i++){
     document.write("<br><h6>=====> Score of " + studentNames[i] + " is " + score[i] + ". Percentage: " + score[i]*100/totalScore + "% </h6><br>");
 }
@@ -46,12 +46,12 @@ for(var i=0; i<score.length;i++){
 document.write("<br><h3>...........9  <h3>");
 
 // color name in  array
-document.write("<p>...........  color name in  array </p>");
+document.write("<h3>...........  color name in  array </h3>");
 var colors =[" red", " green", " blue"];
-document.write("<h2>=====>", colors + "</h2><br>");
+document.write("<h6>=====>", colors + "</h6><br>");
 
 // add frist color one more
-document.write("<h4>...........A. add frist color one more in array<h4>");
+document.write("<h3>...........A. add frist color one more in array<h3>");
 colors.unshift("Yellow");
 document.write("<h6>=====>",colors , "</h6>");
 
@@ -62,7 +62,7 @@ document.write("<h6>=====>", colors + "</h6><br>");
 
 // Add two more color to the beginning of the array
 document.write("<h4>...........C. Add two more color to the beginning of the array<h4>");
-colors.splice(0, 0, "Black", "blue");
+colors.unshift( "Black", "blue");
 document.write("<h6>=====>",colors,"<br></h6>");
 
 // Delete first color in array
@@ -130,7 +130,7 @@ document.write("=>Out: <br>======>",devices.pop() + "<br>");
 
 // 15
 document.write("<br><h3>...........15  phone Manu facturers in an array the dropdown<h3>");
-var phoneManufacturers = ["Apple", " Huawei", " Samsung", " Motorola", " Nokia", " Sony", " Haier", " Xiaomi", " Infinix", " Oppo", " Vivo"];
+var phoneManufacturers = ["Apple ", " Huawei ", " Samsung ", " Motorola ", " Nokia ", " Sony ", " Haier ", " Xiaomi ", " Infinix ", " Oppo ", " Vivo "];
 document.write("<h6>======>",phoneManufacturers,"</h6>");
 document.write("<br><h5>........... array ine dropdown<h5>");
 document.write("======>","<select>");
