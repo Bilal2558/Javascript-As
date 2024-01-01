@@ -313,7 +313,7 @@ document.write("<h3>=====.getSeconds</h3>");
 var currSecs = d.getSeconds()
 document.write("<h6>", currSecs, "</h6>")
 
-document.write("<h3>=====.getMilliseconds</h3>");
+document.write("<h3>=====................getMilliseconds</h3>");
 var currMills = d.getMilliseconds();
 document.write("<h6>", currMills, "</h6>")
 
@@ -326,7 +326,7 @@ document.write("<h6>", millsSince, "</h6>")
 
 
 
-document.write("<h3>=====Time in pm and am</h3>");
+document.write("<h3>==Time in pm and am</h3>");
 function formatAMPM(date) {
   var hours = date.getHours();
   var minutes = date.getMinutes();
