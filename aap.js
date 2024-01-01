@@ -323,9 +323,6 @@ var millsSince = d.getTime();
 document.write("<h6>", millsSince, "</h6>")
 
 
-
-
-
 document.write("<h3>=====Time in pm and am</h3>");
 function formatAMPM(date) {
   var hours = date.getHours();
@@ -339,3 +336,5 @@ function formatAMPM(date) {
 }
 
 document.write(formatAMPM(new Date));
+
+............................................................
