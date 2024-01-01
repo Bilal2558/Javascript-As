@@ -313,7 +313,7 @@ document.write("<h3>=====.getSeconds</h3>");
 var currSecs = d.getSeconds()
 document.write("<h6>", currSecs, "</h6>")
 
-document.write("<h3>=====................getMilliseconds</h3>");
+document.write("<h3>=====getMilliseconds</h3>");
 var currMills = d.getMilliseconds();
 document.write("<h6>", currMills, "</h6>")
 
@@ -339,3 +339,5 @@ function formatAMPM(date) {
 }
 
 document.write(formatAMPM(new Date));
+
+document.write("<h1>===Bilal</h1>");
