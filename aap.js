@@ -323,14 +323,10 @@ var millsSince = d.getTime();
 document.write("<h6>", millsSince, "</h6>")
 
 
-<<<<<<< HEAD
-
-
-
 document.write("<h3>==Time in pm and am</h3>");
-=======
+
 document.write("<h3>=====Time in pm and am</h3>");
->>>>>>> f2bcc4e39cf652ff2195091e1a6f74da90797d14
+
 function formatAMPM(date) {
   var hours = date.getHours();
   var minutes = date.getMinutes();
@@ -344,8 +340,7 @@ function formatAMPM(date) {
 
 document.write(formatAMPM(new Date));
 
-<<<<<<< HEAD
+
 document.write("<h1>===Bilal</h1>");
-=======
-............................................................
->>>>>>> f2bcc4e39cf652ff2195091e1a6f74da90797d14
+
+
